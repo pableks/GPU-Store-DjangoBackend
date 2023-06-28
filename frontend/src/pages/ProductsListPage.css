@@ -1,0 +1,29 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    flex: 1 0 500px; /* Adjust the width as per your preference */
+    margin: -10px;
+    display: flex;
+    
+  }
+  
+  .card-body {
+    flex-grow: 1;
+  }
+  
+  .product-image {
+    height: 200px; /* Adjust the height as per your preference */
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  @media (max-width: 576px) {
+    /* Adjust the max-width value as per your breakpoint */
+    .product-item {
+      flex-basis: 100%; /* Set to 100% width when only one product is present or on smaller screens */
+    }
+  }
+  

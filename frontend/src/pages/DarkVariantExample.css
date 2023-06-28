@@ -1,0 +1,18 @@
+.carousel-caption {
+    text-align: center;
+  }
+  
+  .carousel-title {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 16px;
+  }
+  
+  .carousel-caption a {
+    color: white;
+    text-decoration: none;
+  }
+ 
